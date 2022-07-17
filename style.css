@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Noto Sans', sans-serif;
+}
+html,body{
+  height: 98%;
+  width: 100%;
+  
+  background:black;
+}
+.container{
+  display: flex;
+  height: 100%;
+  margin-top: 20px;
+  
+}
+.left{
+  width: 50%;
+  background-color:rgb(43, 46, 56);
+  margin-bottom: 10px;
+}
+.right{
+  width: 50%;
+  background-color: white;
+  margin-bottom: 10px;
+}
+.text{
+  position: relative;
+  top: 285px;
+  left: 150px;
+  font-size: 3rem;
+  font-weight: 500;
+  color: white;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+.clock{
+  height: 300px;
+  width: 230px;
+  top: 140px;
+  left: 230px;
+  background: black;
+  border-radius: 20%;
+  border-top: 20px solid rgb(73, 73, 73);
+  border-bottom: 20px solid rgb(73, 73, 73);
+  color: white;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+ 
+}
+.clock h4{
+  text-align: center;
+  margin-top: 15px;
+}
+.centertime{
+  text-align: center;
+  position: relative;
+  top: 7%;
+  font-size: 1.0rem;
+  font-family: 'Times New Roman', Times, serif;
+}
+.centertime h1{
+  font-size: 3rem;
+}
+.image{
+  position: relative;
+  top: 80px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 25px;
+  
+}
+button{
+  background-color: transparent;
+  border: none;
+  outline: none;
+
+}
+.far,.fas{
+  color: white;
+  font-size: 20px;
+}
